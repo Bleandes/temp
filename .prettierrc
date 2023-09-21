@@ -1,0 +1,26 @@
+{
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "importOrder": [
+        "^#assets/(.*)$",
+        "^#components/(.*)$",
+        "^#context/(.*)$",
+        "^#enum/(.*)$",
+        "^#errors/(.*)$",
+        "^#helper/(.*)$",
+        "^#hooks/(.*)$",
+        "^#layout/(.*)$",
+        "^#locales/(.*)$",
+        "^#mask/(.*)$",
+        "^#pages/(.*)$",
+        "^#store/(.*)$",
+        "^#reports/(.*)$",
+        "^#store/(.*)$",
+        "^#styles/(.*)$",
+        "^#theme/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": true,
+    "printWidth": 120
+}

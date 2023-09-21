@@ -1,0 +1,679 @@
+{
+  "global": {
+    "user": "Usuário",
+    "password": "Senha",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "show": "Visualizar",
+    "id": "ID",
+    "actions": "Ações",
+    "name": "Nome",
+    "description": "Descrição",
+    "cep": "CEP",
+    "cpf": "CPF",
+    "cnpj": "CNPJ",
+    "period": "Período",
+    "supplier": "Fornecedor",
+    "classification": "Classificação",
+    "selection": "Seleção",
+    "startDate": "Data Inicial",
+    "endDate": "Data Final",
+    "dueDate": "Vencimento",
+    "paymentDate": "Data de pagamento",
+    "payment": "Pagamento",
+    "pay": "Pagar",
+    "observation": "Observação",
+    "days": "Dias",
+    "document": "Documento",
+    "bank": "Banco",
+    "oberservation": "Observação",
+    "emission": "Emissão",
+    "duplicates": "Duplicatas",
+    "all": "Todos",
+    "opened": "Em Aberto",
+    "partial": "Parcial",
+    "complete": "Completo",
+    "cancelled": "Cancelado",
+    "status": "Status",
+    "save": "Salvar",
+    "saved": "Salvo",
+    "unity": "Unidade",
+    "quantity": "Quantidade",
+    "bestBefore": "Validade",
+    "email": "E-mail",
+    "company": "Empresa",
+    "stock": "Estoque",
+    "errors": {
+      "noRoutePermission": "Você não tem permissão para acessar essa rota!",
+      "noEdit": "Nenhum dado foi alterado!"
+    },
+    "confirmations": {
+      "delete": "Deseja excluir o registro?"
+    },
+    "success": {
+      "register": "Registro incluído com sucesso!",
+      "edit": "Registro editado com sucesso!",
+      "delete": "Registro excluído com sucesso!"
+    },
+    "theme": "Tema",
+    "branch": "Filial",
+    "branches": "Filiais",
+    "logout": "Sair",
+    "language": "Idioma",
+    "server": "Servidor",
+    "port": "Porta",
+    "number": "Número",
+    "neighborhood": "Bairro",
+    "city": "Cidade",
+    "state": "Estado",
+    "ddd": "DDD",
+    "phone": "Telefone",
+    "celphone": "Celular",
+    "whatsApp": "WhatsApp",
+    "crf": "CRF",
+    "country": "País",
+    "acronym": "Sigla",
+    "products": "Produtos",
+    "establishment": "Estabelecimento",
+    "client": "Cliente",
+    "seller": "Vendedor",
+    "conclude": "Concluir",
+    "group": "Grupo",
+    "type": "Tipo",
+    "product": "Produto",
+    "general": "Geral",
+    "complement": "Complemento",
+    "observations": "Observações",
+    "freight": "Frete",
+    "host": "Host",
+    "agency": "Agência",
+    "contact": "Contato",
+    "website": "Website",
+    "address": "Endereço",
+    "calculation": "Cálculo",
+    "exempt": "Isenta",
+    "percentage": "Percentual",
+    "capsule": "Cápsula",
+    "qsp": "QSP",
+    "rawMaterial": "Matéria-prima",
+    "semiFinished": "Semi-acabado",
+    "finished": "Acabado",
+    "package": "Embalagem",
+    "drugstore": "Drogaria",
+    "homeopathy": "Homeopatia",
+    "floral": "Floral",
+    "rehearsal": "Ensaio",
+    "installment": "Parcelamento",
+    "value": "Valor",
+    "duplicate": "Duplicata",
+    "date": "Data",
+    "hour": "Hora",
+    "page": "Página",
+    "carrier": "Portador",
+    "factor": "Fator",
+    "volume": "Volume",
+    "mass": "Massa",
+    "conversions": "Conversões",
+    "confirmPassword": "Confirmar senha",
+    "admin": "Administrador",
+    "pharmaceutical": "Farmacêutico",
+    "privileges": "Privilégios",
+    "perfil": "Perfil"
+  },
+  "buttons": {
+    "login": "LOGIN",
+    "forgotPassword": "Esqueci minha senha"
+  },
+  "sideBar": {
+    "search": {
+      "placeHolder": "Pesquisa por Módulos"
+    },
+    "modulo": {
+      "Cadastros": "Cadastros",
+      "Estoque": "Estoque",
+      "Financeiro": "Financeiro",
+      "Configuracoes": "Configurações"
+    },
+    "moduloTitle": {
+      "Cadastros": "Módulo de Cadastros",
+      "Estoque": "Módulo de Estoque",
+      "Financeiro": "Módulo de Financeiro",
+      "Configuracoes": "Módulo de Configurações"
+    },
+    "categoria": {
+      "Estoque": "Estoque",
+      "Geral": "Geral",
+      "Movimento": "Movimento",
+      "Relatorios": "Relatórios",
+      "Compras": "Compras",
+      "FaltasEncomendas": "Faltas & Encomendas",
+      "ConsultaDePedidos": "Consulta de Pedidos",
+      "Financeiro": "Financeiro",
+      "ContasAPagar": "Contas a Pagar",
+      "Acessos": "Acessos",
+      "Empresa": "Empresa",
+      "Emails": "E-mail"
+    },
+    "programa": {
+      "Fornecedor": "Fornecedor",
+      "Grupo": "Grupo",
+      "Laboratorio": "Laboratório",
+      "Bairro": "Bairro",
+      "Cidade": "Cidade",
+      "Estado": "Estado",
+      "Pais": "País",
+      "Farmacopeia": "Farmacopéia",
+      "Ensaio": "Ensaio",
+      "Tributo": "Tributo",
+      "Banco": "Banco",
+      "PlanoDeContas": "Plano de Contas",
+      "Portador": "Portador",
+      "ContasPagas": "Contas Pagas",
+      "ContasAPagar": "Contas a Pagar",
+      "Usuarios": "Usuários",
+      "GrupoUsuarios": "Grupo de Usuários",
+      "Compras": "Compras",
+      "ConsultaDePedidos": "Consulta de Pedidos",
+      "FaltasEncomendas": "Faltas & Encomendas",
+      "Produto": "Produto",
+      "Unidade": "Unidade"
+    },
+    "subPrograma": {
+      "Listar": "Listar",
+      "Visualizar": "Visualizar",
+      "Adicionar": "Adicionar",
+      "Editar": "Editar",
+      "Excluir": "Excluir",
+      "ConsultaDePedidos": "Consulta de Pedidos",
+      "ConsultarPedido": "Consultas Pedidos",
+      "CotacaoDeCompras": "Cotação de Compras",
+      "RelatorioDeCompras": "Relatório de Compras",
+      "Consultar": "Consultar",
+      "Concluir": "Concluir",
+      "Pagar": "Pagar",
+      "Negociacao": "Negociação",
+      "CancelarPagamento": "Cancelar Pagamento"
+    },
+    "user": {
+      "regular": "Usuário",
+      "admin": "Administrador",
+      "owner": "Diretor",
+      "exit": "Sair"
+    }
+  },
+  "login": {
+    "terms": "Ao realizar o login, declaro que li e estou de acordo com as políticas de privacidade.",
+    "resetPassword": {
+      "success": "Senha resetada com sucesso! Siga o passo a passo que foi enviado para seu e-mail para recuperar sua senha."
+    },
+    "doNotTranslate": {
+      "languages": {
+        "pt_BR": "Português",
+        "es_ES": "Español",
+        "en_US": "English"
+      }
+    },
+    "placeHolder": {
+      "password": "Informe sua senha",
+      "email": "Informe seu e-mail"
+    }
+  },
+  "components": {
+    "loader": {
+      "defaultMessage": "Carregando"
+    },
+    "errorModal": {
+      "defaultTitle": "Desculpe!",
+      "defaultMessage": "Ops ... Algo deu errado!"
+    },
+    "formField": {
+      "searchFor": "Pesquisar por:",
+      "select": "Selecione...",
+      "errors": {
+        "isEmpty": "Campo de preenchimento obrigatório.",
+        "maxLength": "O tamanho máximo para esse campo é de {{size}} caracteres.",
+        "invalidEmail": "E-mail inválido!",
+        "invalidNumber": "Valor numérico inválido!",
+        "invalidCnpj": "CNPJ inválido!",
+        "invalidCpf": "CPF inválido!",
+        "noOptions": "Sem opções..."
+      }
+    },
+    "successModal": {
+      "defaultTitle": "Sucesso!"
+    },
+    "confirmModal": {
+      "defaultTitle": "Atenção!"
+    },
+    "defaultTable": {
+      "placeholder": "Procurar ..."
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "save": "Salvar",
+      "include": "Incluir",
+      "back": "Voltar",
+      "remove": "Remover",
+      "filter": "Filtrar"
+    },
+    "table": {
+      "pageSize": "Tamanho da Página:",
+      "noRows": "Nenhum registro foi encontrado.",
+      "saveLayout": "Salvar layout",
+      "saveLayoutSuccess": "Layout salvo com sucesso!",
+      "resetLayout": "Resetar layout",
+      "resetLayoutSuccess": "Layout resetado com sucesso."
+    }
+  },
+  "errors": {
+    "api": {
+      "default": "Não conseguimos processar sua requisição no momento, tente novamente em alguns instantes. Caso o erro persista, entre em contato com nosso suporte!",
+      "expiredSession": "Sua sessão expirou! Por favor realize o login novamente.",
+      "login": "Usuário ou senha incorretos!",
+      "add": "Não foi possível concluir o registro, tente novamente em alguns instantes ou entre em contato com o suporte.",
+      "edit": "Não foi possível alterar o registro, tente novamente em alguns instantes ou entre em contato com o suporte.",
+      "remove": "Não foi possível excluir o registro, tente novamente em alguns instantes ou entre em contato com o suporte.",
+      "alreadyExists": "Este registro já existe!",
+      "noPermission": "Você não tem permissão para acessar essa rota!",
+      "list": "Não foi possível listar os registros, tente novamente em alguns instante ou entre em contato com o suporte.",
+      "show": "Não foi possível visualizar o registro, tente novamente em alguns instante ou entre em contato com o suporte.",
+      "file": "Não foi possível gerar o arquivo, tente novamente em alguns instante ou entre em contato com o suporte.",
+      "notRegistered": "E-mail não cadastrado!",
+      "maxNumberUser": "Número máximo de usuários já cadastrados!",
+      "invalidParamsTestEmail": "Dados do e-mail inválidos!",
+      "testEmailFailed": "O teste de envio falhou!",
+      "excelError": "Não foi possível gerar o arquivo em excel, tente novamente em alguns instantes ou entre em contato com o suporte.",
+      "itemNotFound": "Item não localizado",
+      "linkExpired": "Link Expirado",
+      "sendLinkError": "Não foi possível enviar o(s) e-mail(s), tente novamente em alguns instantes ou entre em contato com o suporte."
+    }
+  },
+  "topbar": {
+    "user": {
+      "profile": "Meu Perfil"
+    }
+  },
+  "layout": {
+    "settings": {
+      "title": "Customização de Layout"
+    }
+  },
+  "bairro": {
+    "startTitle": "Bairro",
+    "createTitle": "Incluir Bairro",
+    "editTitle": "Editar Bairro",
+    "detailsTitle": "Visualizar Bairro",
+    "placeholders": {
+      "name": "Digite um nome"
+    }
+  },
+  "erros": {
+    "page": {
+      "404": "Ooops, não conseguimos encontrar a página que você está tentando acessar"
+    }
+  },
+  "cidade": {
+    "startTitle": "Cidade",
+    "detailsTitle": "Visualizar Cidade",
+    "editTitle": "Editar Cidade",
+    "createTitle": "Incluir Cidade",
+    "ibgeCode": "Código IBGE",
+    "cfpsCode": "Selecione o código CFPS",
+    "siafiCode": "Código SIAFI"
+  },
+  "banco": {
+    "startTitle": "Banco",
+    "title": "Visualizar Banco",
+    "editTitle": "Editar Banco",
+    "createTitle": "Adicionar Banco",
+    "codigoBanco": "Código banco",
+    "carteira": "Carteira",
+    "modalidade": "Modalidade",
+    "formaCobranca": "Forma de cobrança",
+    "layout": "Layout",
+    "sequenciaRemessa": "Sequência de remessa",
+    "nomeCedente": "Nome cedente",
+    "cnpjCedente": "CNPJ cedente",
+    "codigoCedente": "Código cedente",
+    "codigoTransmissao": "Código transmissão",
+    "complementoTransmissao": "Complemento transmissão",
+    "agencia": "Agência",
+    "agenciaDigito": "Dígito da agência",
+    "diasProtesto": "Dias de protesto",
+    "juros": "Juros %",
+    "multa": "Multa %",
+    "contaCorrente": "Conta corrente",
+    "contaCorrenteDigito": "Dígito da conta corrente",
+    "convenio": "Convênio",
+    "producao": "Produção",
+    "localPagamento": "Local de pagamento",
+    "mensagemInstrucao": "Mensagem de instrução {{value}}",
+    "fieldSetLegend": {
+      "mensagensDeInstrucao": "Mensagens de Instrução"
+    },
+    "radioButtonOptions": {
+      "formaCobranca": {
+        "boleto": "B - Boleto",
+        "desconto": "D - Desconto Escritural"
+      }
+    },
+    "detailsTitle": "Visualizar Banco"
+  },
+  "dashboard": {
+    "errors": {
+      "noDefaultEmailAdmin": "Sua empresa não possui um e-mail padrão. Por favor cadastre um e-mail nas configurações.",
+      "noDefaultEmail": "Sua empresa não possui um e-mail padrão. Por favor contate um usuário administrador."
+    }
+  },
+  "email": {
+    "title": "Configurações de E-mail",
+    "enviado": "E-mail enviado com sucesso.",
+    "testarEmail": "Testar e-mail",
+    "dropDown": "Selecione o tipo de e-mail",
+    "ssl": "SSL/TLS",
+    "conexaoSegura": "SMTP exige conexão segura",
+    "tipo": {
+      "padrao": "Padrão",
+      "compras": "Compras",
+      "vendas": "Vendas"
+    }
+  },
+  "empresa": {
+    "tabs": {
+      "geral": {
+        "title": "Geral"
+      },
+      "layout": {
+        "title": "Aparência",
+        "datePicker": "Cor padrão do tema"
+      }
+    },
+    "tooltips": {
+      "banner": "Logo Menu 1 - Sugestão: Largura 1080px | Altura 295px | Tipo .png",
+      "logo": "Logo Menu 2 - Sugestão: Largura 450px | Altura 450px | Tipo .png"
+    },
+    "razaoSocial": "Razão social",
+    "nomeFantasia": "Nome fantasia",
+    "inscricaoEstadual": "Inscrição estadual",
+    "inscricaoMunicipal": "Inscrição municipal",
+    "fornecedorInterno": "Fornecedor interno",
+    "complemento": "Complemento",
+    "nomeFarmaceutico": "Nome do farmacêutico",
+    "cpfRespSNGPC": "CPF do responsável SNGPC",
+    "usuarioSNGPC": "Usuário SNGPC",
+    "senhaSNGPC": "Senha SNGPC",
+    "licencaFunc": "Licença de funcionamento",
+    "autoridadeSanitaria": "Autoridade sanitária",
+    "licencaMapa": "Licença de mapa",
+    "markupPadrao": "Markup padrão %",
+    "prazoPadrao": "Prazo padrão em dias",
+    "regimeTributario": {
+      "title": "Regime tributário",
+      "simplesNacional": "Simples nacional",
+      "simplesNacionalSubLimite": "Simples nacional sublimite",
+      "regimeNormal": "Regime normal"
+    },
+    "toast": {
+      "errorIe": "Inscrição Estadual inválida!"
+    }
+  },
+  "estado": {
+    "icmsAliquot": "Alíquota ICMS (%)",
+    "fcpAliquot": "Alíquota FCP (%)",
+    "exemptTaxpayer": "Checagem contribuinte isento (NFe N.T. 2015/003)",
+    "difalInside": "Difal com cálculo por dentro",
+    "difalExempt": "Usar difal no cálculo de isento",
+    "createTitle": "Incluir Estado",
+    "startTitle": "Estado",
+    "editTitle": "Editar Estado",
+    "detailsTitle": "Visualizar Estado",
+    "fieldSetLegend": "Alíquotas por estado",
+    "erroAliquotaEstado": "O valor de % de alíquota deve ser entre 0 e 2%",
+    "aliquotaEstado": {
+      "estadoDestino": "Estado de destino",
+      "estadoOrigem": "Estado de origem",
+      "porcentagemIcms": "Percentual de ICMS"
+    }
+  },
+  "faltasEncomendas": {
+    "previsaoDeEntrega": "Previsão de entrega",
+    "startTitle": "Faltas/Encomendas",
+    "createTitle": "Incluir Faltas/Encomendas",
+    "editTitle": "Editar Faltas/Encomendas",
+    "detailsTitle": "Visualizar Faltas/Encomendas",
+    "confirmations": {
+      "concluir": "Deseja realmente concluir a Falta/Encomenda?"
+    },
+    "success": {
+      "concluir": "Falta/Encomenda concluída com sucesso"
+    },
+    "statusFaltaEncomenda": {
+      "solicitado": "Solicitado",
+      "encomendado": "Encomendado",
+      "concluido": "Concluído"
+    },
+    "radioButtonOptions": {
+      "falta": "Falta",
+      "encomenda": "Encomenda"
+    },
+    "erros": {
+      "listaProdutoVazia": "É necessário selecionar pelo menos 1 produto",
+      "clienteVazio": "Para o tipo Encomenda é necessário selecionar um cliente!",
+      "produtoExistente": "Este produto já está inserido em sua lista!",
+      "noPermissionConcluir": "Você não possui permissão para concluir",
+      "noPermissionCancelar": "Você não possui permissão para cancelar a falta/encomenda",
+      "faltaEncomendaJaConcluida": "Falta/Encomenda já está concluída",
+      "quantidadeInvalida": "Quantidade deve ser maior que 0"
+    }
+  },
+  "fornecedor": {
+    "nomeFantasia": "Nome fantasia",
+    "inscricaoEstadual": "Inscrição estadual",
+    "telefoneContato": "Telefone de contato",
+    "contaCorrenteFornecedor": "Conta corrente",
+    "responsavelTecnico": "Responsável técnico",
+    "alvaraSanitario": "Alvará sanitário",
+    "autorizacaoFuncionamento": "Autorização de funcionamento",
+    "autorizacaoEspecial": "Autorização especial",
+    "licencaMapa": "Licença mapa",
+    "cadastroFarmacia": "Cadastro farmácia",
+    "planoDeContas": "Plano de contas",
+    "valorMinimoPedido": "Valor mínimo (R$)",
+    "formaPagamento": "Forma de pagamento",
+    "previsaoEntrega": "Previsão de entrega (dias)",
+    "startTitle": "Fornecedor",
+    "createTitle": "Incluir Fornecedor",
+    "editTitle": "Editar Fornecedor",
+    "detailsTitle": "Visualizar Fornecedor",
+    "indicadorDeDestino": "Indicador de destino",
+    "radioButtonOptions": {
+      "contribuinteIcms": "Contribuinte do ICMS",
+      "contribuinteIsento": "Contribuinte isento de inscrição",
+      "naoContribuinte": "Não contribuinte"
+    },
+    "toast": {
+      "errorIe": "Inscrição Estadual inválida!",
+      "errorEstadoEmpty": "É necessário selecionar um Estado!"
+    },
+    "spacer": {
+      "dadosEndereco": "Dados de Endereço"
+    }
+  },
+  "pais": {
+    "ibgeCode": "Código IBGE",
+    "telephoneCode": "Código telefônico",
+    "startTitle": "País",
+    "createTitle": "Incluir País",
+    "editTitle": "Editar País",
+    "detailsTitle": "Visualizar País"
+  },
+  "portador": {
+    "portadorInativo": "Portador inativo",
+    "startTitle": "Portador",
+    "createTitle": "Adicionar Portador",
+    "editTitle": "Editar Portador",
+    "detailsTitle": "Visualizar Portador"
+  },
+  "laboratorio": {
+    "startTitle": "Laboratório",
+    "createTitle": "Incluir Laboratório",
+    "editTitle": "Editar Laboratório",
+    "detailsTitle": "Visualizar Laboratório"
+  },
+  "planoDeContas": {
+    "title": "Plano de Contas"
+  },
+  "produto": {
+    "startTitle": "Produto",
+    "createTitle": "Incluir Produto",
+    "editTitle": "Editar Produto",
+    "detailsTitle": "Visualizar Produto",
+    "unidadeManipulacao": "Unidade de manipulação",
+    "unidadeEstoque": "Unidade de estoque",
+    "valorCusto": "Valor de custo",
+    "valorCustoMedio": "Valor de custo médio",
+    "valorVenda": "Valor de venda",
+    "estoqueMinimo": "Estoque mínimo",
+    "estoqueMaximo": "Estoque máximo",
+    "dataUltimaCompra": "Data última compra",
+    "curvaAbc": "Curva ABC",
+    "aliquotaIcms": "Alíquota de ICMS",
+    "produtoInativo": "Produto Inativo",
+    "situacaoTributaria": "Situação tributária",
+    "codigoDcb": "Código DCB",
+    "codigoCas": "Código CAS",
+    "optionsSituacaoTributaria": {
+      "tributadaIntegralmente": "Tributada integralmente",
+      "substituicaoTributaria": "Substituição tributária",
+      "NaoIncidencia": "Não incidência",
+      "tributadoISS": "Tributado ISS",
+      "naoInformado": "Não informado"
+    },
+    "semCalculo": "Sem cálculo"
+  },
+  "grupo": {
+    "startTitle": "Grupo",
+    "createTitle": "Incluir Grupo",
+    "editTitle": "Editar Grupo",
+    "detailsTitle": "Visualizar Grupo",
+    "comissao": "Comissão (%)",
+    "percentualDesconto": "Desconto (%)",
+    "ativaPesagemGrupo": "Pesagem Monitorada",
+    "descontoMaximo": "Desconto máximo (%)",
+    "ativaControleDeLotesAcabados": "Ativa controle de lote acabado",
+    "fatorReferenciaGrupo": "Markup (%)",
+    "ativaControleLotesDrogaria": "Ativa controle de lote drogaria",
+    "codigoGrupoLp": "Grupo de exportação de custos",
+    "ensaios": "Seleciona os ensaios",
+    "fieldSetEnsaio": "Selecione os estados"
+  },
+  "contasAPagar": {
+    "detailsTitle": "Visualizar Conta",
+    "editTitle": "Editar Conta",
+    "startTitle": "Contas a Pagar",
+    "start": {
+      "paidDuplicated": "Duplicatas Pagas",
+      "documentNumber": "N° do documento"
+    },
+    "cancel": {
+      "success": "Conta cancelada com sucesso!",
+      "confirm": "Deseja realmente cancelar essa conta?",
+      "title": "Cancelar Pagamento"
+    },
+    "createTitle": "Incluir Contas a Pagar",
+    "create": {
+      "accountPlan": "Plano de contas",
+      "installments": "Quantidade de parcelas",
+      "firstDueDate": "Primeiro vencimento",
+      "buttons": {
+        "generateInstallments": "Gerar Parcelas"
+      },
+      "success": "Conta incluída com sucesso!"
+    },
+    "duplicates": {
+      "installmentNumber": "Número da fatura",
+      "dueDate": "Data do vencimento"
+    },
+    "payTitle": "Pagar Conta",
+    "pay": {
+      "paidAmount": "Valor pago {{currency}}",
+      "success": "Conta paga com sucesso!"
+    },
+    "errors": {
+      "invalidDates": "A data do primeiro vencimento não pode ser menor que a data de emissão!",
+      "wrongValue": "O valor do documento de {{valor}} não confere com total das duplicatas {{currency}} {{total}}",
+      "invalidInstallmentDates": "A data das duplicatas não pode ser menor que a data de emissão!"
+    }
+  },
+  "relatorioContasAPagar": {
+    "title": "Relatório de Contas a Pagar",
+    "accountPlan": "Plano de contas",
+    "errors": {
+      "invalidDates": "A data final não poder ser menor que a data inicial.",
+      "noData": "Nenhuma ocorrência para Duplicatas Pagas!",
+      "supplier": "Selecione pelo menos um Fornecedor!"
+    },
+    "report": {
+      "supplier": "Duplicatas a Pagar Fornecedor",
+      "regular": "Duplicatas a Pagar"
+    }
+  },
+  "relatorioContasPagas": {
+    "title": "Relatório de Contas Pagas",
+    "dayTotal": "Total do dia",
+    "total": "Total Geral",
+    "duplicatedDueDate": "Duplicatas Pagas Por Vencimento",
+    "duplicatedPayment": "Duplicatas Pagas Por Pagamento",
+    "errors": {
+      "noData": "Nenhuma ocorrência para Duplicatas Pagas !"
+    },
+    "report": {
+      "paidValue": "Valor pago",
+      "paymentDifference": "Diferença no Pagamento"
+    }
+  },
+  "unidade": {
+    "startTitle": "Unidade",
+    "createTitle": "Incluir Unidade",
+    "editTitle": "Editar Unidade",
+    "detailsTitle": "Visualizar Unidade",
+    "fatorLactobacilos": "Fator de lactobacilos",
+    "unidadeConversao": "Unidade de conversão",
+    "leftTableName": "Unidades Disponíveis",
+    "rightTableName": "Unidades em Conversão",
+    "erros": {
+      "unidadeExistente": "Esta unidade já está inserida em sua lista!",
+      "unidadeIgualDeEdição": "Não é possível incluir uma unidade de conversão igual a unidade."
+    }
+  },
+  "usuarios": {
+    "startTitle": "Usuários",
+    "createTitle": "Criar Usuário",
+    "editTitle": "Editar Usuário",
+    "detailsTitle": "Visualizar Usuário",
+    "grupoUsuario": "Grupo do usuário",
+    "trocarSenha": "Solicitar alteração da senha no 1º acesso",
+    "mismatchPassword": "As senhas não são iguais!",
+    "success": "Usuário criado com sucesso",
+    "filiais": "Acesso de estabelecimentos",
+    "errors": {
+      "noGroup": "Selecione pelo menos 1 Grupo de Usuários"
+    }
+  },
+  "grupoUsuarios": {
+    "startTitle": "Grupo de Usuários",
+    "createTitle": "Criar Grupo de Usuários",
+    "editTitle": "Editar Grupo de Usuários",
+    "detailsTitle": "Visalizar Grupo de Usuários",
+    "create": {
+      "success": "Grupo de Usuários criado com sucesso!"
+    },
+    "errors": {
+      "emptyPermissoes": "Selecione pelo menos 1 permissão!"
+    }
+  },
+  "perfil": {
+    "trocarSenha": "Trocar senha"
+  }
+}

@@ -1,0 +1,679 @@
+{
+  "global": {
+    "user": "User",
+    "password": "Password",
+    "delete": "Delete",
+    "edit": "Edit",
+    "show": "View",
+    "id": "ID",
+    "actions": "Actions",
+    "name": "Name",
+    "description": "Description",
+    "cep": "Zip code",
+    "cpf": "CPF",
+    "cnpj": "CNPJ",
+    "period": "Period",
+    "supplier": "Supplier",
+    "classification": "Classification",
+    "selection": "Selection",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "dueDate": "Due Date",
+    "paymentDate": "Payment Date",
+    "payment": "Payment",
+    "pay": "Pay",
+    "observation": "Observation",
+    "days": "Days",
+    "document": "Document",
+    "bank": "Bank",
+    "oberservation": "Observation",
+    "emission": "Emission",
+    "duplicates": "Duplicates",
+    "all": "All",
+    "opened": "Opened",
+    "partial": "Partial",
+    "complete": "Complete",
+    "cancelled": "Cancelled",
+    "status": "Status",
+    "save": "Save",
+    "saved": "Saved",
+    "unity": "Unity",
+    "quantity": "Quantity",
+    "bestBefore": "Best Before",
+    "email": "Email",
+    "company": "Company",
+    "stock": "Stock",
+    "errors": {
+      "noRoutePermission": "You do not have permission to access this route!",
+      "noEdit": ""
+    },
+    "confirmations": {
+      "delete": "Do you want to delete this record?"
+    },
+    "success": {
+      "register": "Record successfully added!",
+      "edit": "Record successfully edited!",
+      "delete": "Record successfully deleted!"
+    },
+    "theme": "Theme",
+    "branch": "Branch",
+    "branches": "Branches",
+    "logout": "Logout",
+    "language": "Language",
+    "server": "",
+    "port": "",
+    "number": "",
+    "neighborhood": "",
+    "city": "",
+    "state": "",
+    "ddd": "",
+    "phone": "",
+    "celphone": "",
+    "whatsApp": "",
+    "crf": "",
+    "country": "",
+    "acronym": "",
+    "products": "",
+    "establishment": "",
+    "client": "",
+    "seller": "",
+    "conclude": "",
+    "group": "",
+    "type": "",
+    "product": "",
+    "general": "",
+    "complement": "",
+    "observations": "",
+    "freight": "",
+    "host": "",
+    "agency": "",
+    "contact": "",
+    "website": "",
+    "address": "",
+    "calculation": "",
+    "exempt": "",
+    "percentage": "",
+    "capsule": "",
+    "qsp": "",
+    "rawMaterial": "",
+    "semiFinished": "",
+    "finished": "",
+    "package": "",
+    "drugstore": "",
+    "homeopathy": "",
+    "floral": "",
+    "rehearsal": "",
+    "installment": "",
+    "value": "",
+    "duplicate": "",
+    "date": "",
+    "hour": "",
+    "page": "",
+    "carrier": "",
+    "factor": "",
+    "volume": "",
+    "mass": "",
+    "conversions": "",
+    "confirmPassword": "",
+    "admin": "",
+    "pharmaceutical": "",
+    "privileges": "",
+    "perfil": ""
+  },
+  "buttons": {
+    "login": "LOGIN",
+    "forgotPassword": "Forgot password"
+  },
+  "sideBar": {
+    "search": {
+      "placeHolder": "Search for Modules"
+    },
+    "modulo": {
+      "Cadastros": "Registers",
+      "Estoque": "Stock",
+      "Financeiro": "Financial",
+      "Configuracoes": "Settings"
+    },
+    "moduloTitle": {
+      "Cadastros": "Registration Module",
+      "Estoque": "Stock Module",
+      "Financeiro": "Financial Module",
+      "Configuracoes": "Settings Module"
+    },
+    "categoria": {
+      "Estoque": "Stock",
+      "Geral": "General",
+      "Movimento": "Movement",
+      "Relatorios": "Reports",
+      "Compras": "Purchases",
+      "FaltasEncomendas": "Shortages & Orders",
+      "ConsultaDePedidos": "Orders Query",
+      "Financeiro": "Financial",
+      "ContasAPagar": "Accounts Payable",
+      "Acessos": "Accesses",
+      "Empresa": "Company",
+      "Emails": "E-mail"
+    },
+    "programa": {
+      "Fornecedor": "Supplier",
+      "Grupo": "Group",
+      "Laboratorio": "Laboratory",
+      "Bairro": "District",
+      "Cidade": "City",
+      "Estado": "State",
+      "Pais": "Country",
+      "Farmacopeia": "Pharmacopoeia",
+      "Ensaio": "Test",
+      "Tributo": "Tribute",
+      "Banco": "Bank",
+      "PlanoDeContas": "Chart of Accounts",
+      "Portador": "Carrier",
+      "ContasPagas": "Paid Accounts",
+      "ContasAPagar": "Accounts Payable",
+      "Usuarios": "Users",
+      "GrupoUsuarios": "User Group",
+      "Compras": "Purchases",
+      "ConsultaDePedidos": "Orders Query",
+      "FaltasEncomendas": "Shortages & Orders",
+      "Produto": "Product",
+      "Unidade": "Unit"
+    },
+    "subPrograma": {
+      "Listar": "List",
+      "Visualizar": "View",
+      "Adicionar": "Add",
+      "Editar": "Edit",
+      "Excluir": "Delete",
+      "ConsultaDePedidos": "Orders Query",
+      "ConsultarPedido": "Order Queries",
+      "CotacaoDeCompras": "Purchase Quotation",
+      "RelatorioDeCompras": "Purchase Report",
+      "Consultar": "Query",
+      "Concluir": "Complete",
+      "Pagar": "Pay",
+      "Negociacao": "Negotiation",
+      "CancelarPagamento": "Cancel Payment"
+    },
+    "user": {
+      "regular": "User",
+      "admin": "Administrator",
+      "owner": "Director",
+      "exit": "Exit"
+    }
+  },
+  "login": {
+    "terms": "By logging in, I declare that I have read and agree with the privacy policy.",
+    "resetPassword": {
+      "success": "Password successfully reset! Follow the step by step that was sent to your email to recover your password."
+    },
+    "doNotTranslate": {
+      "languages": {
+        "pt_BR": "Português",
+        "es_ES": "Español",
+        "en_US": "English"
+      }
+    },
+    "placeHolder": {
+      "password": "Inform your password",
+      "email": "Inform your email"
+    }
+  },
+  "components": {
+    "loader": {
+      "defaultMessage": "Loading"
+    },
+    "errorModal": {
+      "defaultTitle": "Sorry!",
+      "defaultMessage": "Oops... Something went wrong!"
+    },
+    "formField": {
+      "searchFor": "Search for:",
+      "select": "Select...",
+      "errors": {
+        "isEmpty": "Required field.",
+        "maxLength": "The maximum size for this field is {{size}} characters.",
+        "invalidEmail": "Invalid email!",
+        "invalidNumber": "Invalid numerical value!",
+        "invalidCnpj": "Invalid CNPJ!",
+        "invalidCpf": "Invalid CPF!",
+        "noOptions": "No options..."
+      }
+    },
+    "successModal": {
+      "defaultTitle": "Success!"
+    },
+    "confirmModal": {
+      "defaultTitle": "Attention!"
+    },
+    "defaultTable": {
+      "placeholder": "Search..."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "save": "Save",
+      "include": "Include",
+      "back": "Back",
+      "remove": "Remove",
+      "filter": "Filter"
+    },
+    "table": {
+      "pageSize": "Page Size:",
+      "noRows": "No records found.",
+      "saveLayout": "Save layout",
+      "saveLayoutSuccess": "Layout saved successfully!",
+      "resetLayout": "Reset layout",
+      "resetLayoutSuccess": "Layout reset successfully."
+    }
+  },
+  "errors": {
+    "api": {
+      "default": "We were unable to process your request at the moment, please try again in a few moments. If the error persists, contact our support!",
+      "expiredSession": "Your session has expired! Please login again.",
+      "login": "Incorrect username or password!",
+      "add": "Unable to complete registration, please try again in a few moments or contact support.",
+      "edit": "Unable to change record, please try again in a few moments or contact support.",
+      "remove": "Unable to delete record, please try again in a few moments or contact support.",
+      "alreadyExists": "This register already exists!",
+      "noPermission": "You do not have permission to access this route!",
+      "list": "Could not list records, please try again later or contact support.",
+      "show": "Could not show record, please try again later or contact support.",
+      "file": "Could not generate file, please try again in a moment or contact support.",
+      "notRegistered": "Email not registered!",
+      "maxNumberUser": "Maximum number of registered users",
+      "invalidParamsTestEmail": "Invalid email data!",
+      "testEmailFailed": "Test upload failed!",
+      "excelError": "It was not possible to generate the Excel file, please try again in a few moments or contact support.",
+      "itemNotFound": "Item not found",
+      "linkExpired": "Expired link",
+      "sendLinkError": "The email(s) could not be sent, please try again in a few moments or contact support."
+    }
+  },
+  "topbar": {
+    "user": {
+      "profile": "My Profile"
+    }
+  },
+  "layout": {
+    "settings": {
+      "title": "Layout Customization"
+    }
+  },
+  "bairro": {
+    "startTitle": "Neighborhood",
+    "createTitle": "Include Neighborhood",
+    "editTitle": "Edit Neighborhood",
+    "detailsTitle": "View Neighborhood",
+    "placeholders": {
+      "name": "Enter a name"
+    }
+  },
+  "erros": {
+    "page": {
+      "404": "Ooops, we can't find the page you are trying to access"
+    }
+  },
+  "cidade": {
+    "startTitle": "City",
+    "detailsTitle": "View City",
+    "editTitle": "Edit City",
+    "createTitle": "Include City",
+    "ibgeCode": "IBGE Code",
+    "cfpsCode": "Select CFPS code",
+    "siafiCode": "SIAFI code"
+  },
+  "banco": {
+    "startTitle": "",
+    "title": "",
+    "editTitle": "",
+    "createTitle": "",
+    "codigoBanco": "",
+    "carteira": "",
+    "modalidade": "",
+    "formaCobranca": "",
+    "layout": "",
+    "sequenciaRemessa": "",
+    "nomeCedente": "",
+    "cnpjCedente": "",
+    "codigoCedente": "",
+    "codigoTransmissao": "",
+    "complementoTransmissao": "",
+    "agencia": "",
+    "agenciaDigito": "",
+    "diasProtesto": "",
+    "juros": "",
+    "multa": "",
+    "contaCorrente": "",
+    "contaCorrenteDigito": "",
+    "convenio": "",
+    "producao": "",
+    "localPagamento": "",
+    "mensagemInstrucao": "",
+    "fieldSetLegend": {
+      "mensagensDeInstrucao": ""
+    },
+    "radioButtonOptions": {
+      "formaCobranca": {
+        "boleto": "",
+        "desconto": ""
+      }
+    },
+    "detailsTitle": ""
+  },
+  "dashboard": {
+    "errors": {
+      "noDefaultEmailAdmin": "",
+      "noDefaultEmail": ""
+    }
+  },
+  "email": {
+    "title": "",
+    "enviado": "",
+    "testarEmail": "",
+    "dropDown": "",
+    "ssl": "",
+    "conexaoSegura": "",
+    "tipo": {
+      "padrao": "",
+      "compras": "",
+      "vendas": ""
+    }
+  },
+  "empresa": {
+    "tabs": {
+      "geral": {
+        "title": ""
+      },
+      "layout": {
+        "title": "",
+        "datePicker": ""
+      }
+    },
+    "tooltips": {
+      "banner": "",
+      "logo": ""
+    },
+    "razaoSocial": "",
+    "nomeFantasia": "",
+    "inscricaoEstadual": "",
+    "inscricaoMunicipal": "",
+    "fornecedorInterno": "",
+    "complemento": "",
+    "nomeFarmaceutico": "",
+    "cpfRespSNGPC": "",
+    "usuarioSNGPC": "",
+    "senhaSNGPC": "",
+    "licencaFunc": "",
+    "autoridadeSanitaria": "",
+    "licencaMapa": "",
+    "markupPadrao": "",
+    "prazoPadrao": "",
+    "regimeTributario": {
+      "title": "",
+      "simplesNacional": "",
+      "simplesNacionalSubLimite": "",
+      "regimeNormal": ""
+    },
+    "toast": {
+      "errorIe": ""
+    }
+  },
+  "estado": {
+    "icmsAliquot": "",
+    "fcpAliquot": "",
+    "exemptTaxpayer": "",
+    "difalInside": "",
+    "difalExempt": "",
+    "createTitle": "",
+    "startTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "fieldSetLegend": "",
+    "erroAliquotaEstado": "",
+    "aliquotaEstado": {
+      "estadoDestino": "",
+      "estadoOrigem": "",
+      "porcentagemIcms": ""
+    }
+  },
+  "faltasEncomendas": {
+    "previsaoDeEntrega": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "confirmations": {
+      "concluir": ""
+    },
+    "success": {
+      "concluir": ""
+    },
+    "statusFaltaEncomenda": {
+      "solicitado": "",
+      "encomendado": "",
+      "concluido": ""
+    },
+    "radioButtonOptions": {
+      "falta": "",
+      "encomenda": ""
+    },
+    "erros": {
+      "listaProdutoVazia": "",
+      "clienteVazio": "",
+      "produtoExistente": "",
+      "noPermissionConcluir": "",
+      "noPermissionCancelar": "",
+      "faltaEncomendaJaConcluida": "",
+      "quantidadeInvalida": ""
+    }
+  },
+  "fornecedor": {
+    "nomeFantasia": "",
+    "inscricaoEstadual": "",
+    "telefoneContato": "",
+    "contaCorrenteFornecedor": "",
+    "responsavelTecnico": "",
+    "alvaraSanitario": "",
+    "autorizacaoFuncionamento": "",
+    "autorizacaoEspecial": "",
+    "licencaMapa": "",
+    "cadastroFarmacia": "",
+    "planoDeContas": "",
+    "valorMinimoPedido": "",
+    "formaPagamento": "",
+    "previsaoEntrega": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "indicadorDeDestino": "",
+    "radioButtonOptions": {
+      "contribuinteIcms": "",
+      "contribuinteIsento": "",
+      "naoContribuinte": ""
+    },
+    "toast": {
+      "errorIe": "",
+      "errorEstadoEmpty": ""
+    },
+    "spacer": {
+      "dadosEndereco": ""
+    }
+  },
+  "pais": {
+    "ibgeCode": "",
+    "telephoneCode": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "portador": {
+    "portadorInativo": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "laboratorio": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "planoDeContas": {
+    "title": ""
+  },
+  "produto": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "unidadeManipulacao": "",
+    "unidadeEstoque": "",
+    "valorCusto": "",
+    "valorCustoMedio": "",
+    "valorVenda": "",
+    "estoqueMinimo": "",
+    "estoqueMaximo": "",
+    "dataUltimaCompra": "",
+    "curvaAbc": "",
+    "aliquotaIcms": "",
+    "produtoInativo": "",
+    "situacaoTributaria": "",
+    "codigoDcb": "",
+    "codigoCas": "",
+    "optionsSituacaoTributaria": {
+      "tributadaIntegralmente": "",
+      "substituicaoTributaria": "",
+      "NaoIncidencia": "",
+      "tributadoISS": "",
+      "naoInformado": ""
+    },
+    "semCalculo": ""
+  },
+  "grupo": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "comissao": "",
+    "percentualDesconto": "",
+    "ativaPesagemGrupo": "",
+    "descontoMaximo": "",
+    "ativaControleDeLotesAcabados": "",
+    "fatorReferenciaGrupo": "",
+    "ativaControleLotesDrogaria": "",
+    "codigoGrupoLp": "",
+    "ensaios": "",
+    "fieldSetEnsaio": ""
+  },
+  "contasAPagar": {
+    "detailsTitle": "",
+    "editTitle": "",
+    "startTitle": "",
+    "start": {
+      "paidDuplicated": "",
+      "documentNumber": ""
+    },
+    "cancel": {
+      "success": "",
+      "confirm": "",
+      "title": ""
+    },
+    "createTitle": "",
+    "create": {
+      "accountPlan": "",
+      "installments": "",
+      "firstDueDate": "",
+      "buttons": {
+        "generateInstallments": ""
+      },
+      "success": ""
+    },
+    "duplicates": {
+      "installmentNumber": "",
+      "dueDate": ""
+    },
+    "payTitle": "",
+    "pay": {
+      "paidAmount": "",
+      "success": ""
+    },
+    "errors": {
+      "invalidDates": "",
+      "wrongValue": "",
+      "invalidInstallmentDates": ""
+    }
+  },
+  "relatorioContasAPagar": {
+    "title": "",
+    "accountPlan": "",
+    "errors": {
+      "invalidDates": "",
+      "noData": "",
+      "supplier": ""
+    },
+    "report": {
+      "supplier": "",
+      "regular": ""
+    }
+  },
+  "relatorioContasPagas": {
+    "title": "",
+    "dayTotal": "",
+    "total": "",
+    "duplicatedDueDate": "",
+    "duplicatedPayment": "",
+    "errors": {
+      "noData": ""
+    },
+    "report": {
+      "paidValue": "",
+      "paymentDifference": ""
+    }
+  },
+  "unidade": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "fatorLactobacilos": "",
+    "unidadeConversao": "",
+    "leftTableName": "",
+    "rightTableName": "",
+    "erros": {
+      "unidadeExistente": "",
+      "unidadeIgualDeEdição": ""
+    }
+  },
+  "usuarios": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "grupoUsuario": "",
+    "trocarSenha": "",
+    "mismatchPassword": "",
+    "success": "",
+    "filiais": "",
+    "errors": {
+      "noGroup": ""
+    }
+  },
+  "grupoUsuarios": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "create": {
+      "success": ""
+    },
+    "errors": {
+      "emptyPermissoes": ""
+    }
+  },
+  "perfil": {
+    "trocarSenha": ""
+  }
+}

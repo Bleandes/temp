@@ -1,0 +1,679 @@
+{
+  "global": {
+    "user": "Usuario",
+    "password": "Contraseña",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "show": "Visualizar",
+    "id": "ID",
+    "actions": "Acciones",
+    "name": "Nombre",
+    "description": "Descripción",
+    "cep": "CEP",
+    "cpf": "CPF",
+    "cnpj": "CNPJ",
+    "period": "Período",
+    "supplier": "Proveedor",
+    "classification": "Clasificación",
+    "selection": "Selección",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Finalización",
+    "dueDate": "Madurez",
+    "paymentDate": "Día de Paga",
+    "payment": "Pago",
+    "pay": "Pagar",
+    "observation": "Observación",
+    "days": "Días",
+    "document": "Documento",
+    "bank": "Banco",
+    "oberservation": "Observación",
+    "emission": "Emisión",
+    "duplicates": "Duplicados",
+    "all": "Todo",
+    "opened": "Abierto",
+    "partial": "Parcial",
+    "complete": "Completo",
+    "cancelled": "Cancelado",
+    "status": "Estatus",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "unity": "Unidad",
+    "quantity": "Cantidad",
+    "bestBefore": "Validez",
+    "email": "Correo Electrónico",
+    "company": "Empresa",
+    "stock": "Existencias",
+    "errors": {
+      "noRoutePermission": "¡No tienes permiso para acceder a esta ruta!",
+      "noEdit": ""
+    },
+    "confirmations": {
+      "delete": "¿Desea eliminar el registro?"
+    },
+    "success": {
+      "register": "¡Registro agregado con éxito!",
+      "edit": "¡Registro editado con éxito!",
+      "delete": "¡Registro eliminado con éxito!"
+    },
+    "theme": "Tema",
+    "branch": "Subsidiaria",
+    "branches": "Subsidiarias",
+    "logout": "Salir",
+    "language": "Idioma",
+    "server": "",
+    "port": "",
+    "number": "",
+    "neighborhood": "",
+    "city": "",
+    "state": "",
+    "ddd": "",
+    "phone": "",
+    "celphone": "",
+    "whatsApp": "",
+    "crf": "",
+    "country": "",
+    "acronym": "",
+    "products": "",
+    "establishment": "",
+    "client": "",
+    "seller": "",
+    "conclude": "",
+    "group": "",
+    "type": "",
+    "product": "",
+    "general": "",
+    "complement": "",
+    "observations": "",
+    "freight": "",
+    "host": "",
+    "agency": "",
+    "contact": "",
+    "website": "",
+    "address": "",
+    "calculation": "",
+    "exempt": "",
+    "percentage": "",
+    "capsule": "",
+    "qsp": "",
+    "rawMaterial": "",
+    "semiFinished": "",
+    "finished": "",
+    "package": "",
+    "drugstore": "",
+    "homeopathy": "",
+    "floral": "",
+    "rehearsal": "",
+    "installment": "",
+    "value": "",
+    "duplicate": "",
+    "date": "",
+    "hour": "",
+    "page": "",
+    "carrier": "",
+    "factor": "",
+    "volume": "",
+    "mass": "",
+    "conversions": "",
+    "confirmPassword": "",
+    "admin": "",
+    "pharmaceutical": "",
+    "privileges": "",
+    "perfil": ""
+  },
+  "buttons": {
+    "login": "LOGIN",
+    "forgotPassword": "Has olvidado tu contraseña"
+  },
+  "sideBar": {
+    "search": {
+      "placeHolder": "Buscar por módulos"
+    },
+    "modulo": {
+      "Cadastros": "Registros",
+      "Estoque": "Inventario",
+      "Financeiro": "Financiero",
+      "Configuracoes": "Ajustes"
+    },
+    "moduloTitle": {
+      "Cadastros": "Módulo de Registro",
+      "Estoque": "Módulo de Inventario",
+      "Financeiro": "Módulo Financiero",
+      "Configuracoes": "Módulo de configuración"
+    },
+    "categoria": {
+      "Estoque": "Inventario",
+      "Geral": "General",
+      "Movimento": "Movimiento",
+      "Relatorios": "Informes",
+      "Compras": "Compras",
+      "FaltasEncomendas": "Faltantes y pedidos",
+      "ConsultaDePedidos": "Consulta de pedidos",
+      "Financeiro": "Financiero",
+      "ContasAPagar": "Cuentas por pagar",
+      "Acessos": "Accesos",
+      "Empresa": "Compañia",
+      "Emails": "E-mail"
+    },
+    "programa": {
+      "Fornecedor": "Proveedor",
+      "Grupo": "Grupo",
+      "Laboratorio": "Laboratorio",
+      "Bairro": "Barrio",
+      "Cidade": "Ciudad",
+      "Estado": "Estado",
+      "Pais": "País",
+      "Farmacopeia": "Farmacopea",
+      "Ensaio": "Ensayo",
+      "Tributo": "Tributo",
+      "Banco": "Banco",
+      "PlanoDeContas": "Plan de cuentas",
+      "Portador": "Portador",
+      "ContasPagas": "Cuentas pagas",
+      "ContasAPagar": "Cuentas por pagar",
+      "Usuarios": "Usuarios",
+      "GrupoUsuarios": "Grupo de usuarios",
+      "Compras": "Compras",
+      "ConsultaDePedidos": "Consulta de pedidos",
+      "FaltasEncomendas": "Faltantes y pedidos",
+      "Produto": "Producto",
+      "Unidade": "Unidad"
+    },
+    "subPrograma": {
+      "Listar": "Listar",
+      "Visualizar": "Visualizar",
+      "Adicionar": "Agregar",
+      "Editar": "Editar",
+      "Excluir": "Eliminar",
+      "ConsultaDePedidos": "Consulta de pedidos",
+      "ConsultarPedido": "Consultar pedidos",
+      "CotacaoDeCompras": "Cotización de compras",
+      "RelatorioDeCompras": "Informe de compras",
+      "Consultar": "Consultar",
+      "Concluir": "Concluir",
+      "Pagar": "Pagar",
+      "Negociacao": "Negociación",
+      "CancelarPagamento": "Cancelar el Pago"
+    },
+    "user": {
+      "regular": "Usuario",
+      "admin": "Administrador",
+      "owner": "Director",
+      "exit": "Salir"
+    }
+  },
+  "login": {
+    "terms": "Al iniciar sesión declaro que he leído y estoy de acuerdo con las políticas de privacidad.",
+    "resetPassword": {
+      "success": "¡Restablecimiento de contraseña exitoso! Sigue el paso a paso que te fue enviado a tu correo electrónico para recuperar tu contraseña."
+    },
+    "doNotTranslate": {
+      "languages": {
+        "pt_BR": "Português",
+        "es_ES": "Español",
+        "en_US": "English"
+      }
+    },
+    "placeHolder": {
+      "password": "Informa tu contraseña",
+      "email": "Informa a tu correo electrónico"
+    }
+  },
+  "components": {
+    "loader": {
+      "defaultMessage": "Cargando"
+    },
+    "errorModal": {
+      "defaultTitle": "¡Lo siento!",
+      "defaultMessage": "¡Ups! Algo salió mal."
+    },
+    "formField": {
+      "searchFor": "Buscar por:",
+      "select": "Seleccionar...",
+      "errors": {
+        "isEmpty": "Campo de relleno obligatorio.",
+        "maxLength": "El tamaño máximo para este campo es de {{size}} caracteres.",
+        "invalidEmail": "Correo electrónico inválido!",
+        "invalidNumber": "¡Valor numérico no válido!",
+        "invalidCnpj": "¡CNPJ inválido!",
+        "invalidCpf": "¡CPF inválido!",
+        "noOptions": "Sin opciones..."
+      }
+    },
+    "successModal": {
+      "defaultTitle": "¡Éxito!"
+    },
+    "confirmModal": {
+      "defaultTitle": "¡Atención!"
+    },
+    "defaultTable": {
+      "placeholder": "Buscar..."
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "save": "Guardar",
+      "include": "Incluir",
+      "back": "Volver",
+      "remove": "Eliminar",
+      "filter": "Filtrar"
+    },
+    "table": {
+      "pageSize": "Tamaño de página:",
+      "noRows": "No se encontraron registros.",
+      "saveLayout": "Guardar diseño",
+      "saveLayoutSuccess": "¡Diseño guardado correctamente!",
+      "resetLayout": "Restablecer diseño",
+      "resetLayoutSuccess": "¡Diseño restablecido correctamente!"
+    }
+  },
+  "errors": {
+    "api": {
+      "default": "No pudimos procesar su solicitud en este momento, intente nuevamente en unos momentos. Si el error persiste, póngase en contacto con nuestro soporte!",
+      "expiredSession": "¡Su sesión ha caducado! Inicie sesión de nuevo.",
+      "login": "¡Usuario o contraseña incorrectos!",
+      "add": "No se puede eliminar el registro, intente nuevamente en unos momentos o comuníquese con soporte.",
+      "edit": "No se puede cambiar el registro, intente nuevamente en unos momentos o comuníquese con soporte.",
+      "remove": "No se puede eliminar el registro, intente nuevamente en unos momentos o comuníquese con soporte.",
+      "alreadyExists": "¡Este registro ya existe!",
+      "noPermission": "¡No tienes permiso para acceder a esta ruta!",
+      "list": "No se pudo listar los registros, intente de nuevo más tarde o contacte al soporte.",
+      "show": "No se pudo mostrar el registro, intente de nuevo más tarde o contacte al soporte.",
+      "file": "No se pudo generar el archivo, intente nuevamente en un momento o comuníquese con soporte.",
+      "notRegistered": "Correo electrónico no registrado!",
+      "maxNumberUser": "Número máximo de usuarios registrados",
+      "invalidParamsTestEmail": "¡Datos de correo electrónico no válidos!",
+      "testEmailFailed": "¡El envío de la prueba falló!",
+      "excelError": "No se pudo generar el archivo en Excel, inténtelo de nuevo en unos momentos o póngase en contacto con el soporte.",
+      "itemNotFound": "Objeto no encontrado",
+      "linkExpired": "Enlace caducado",
+      "sendLinkError": "No se pudieron enviar los correos electrónicos, intente nuevamente en unos momentos o comuníquese con el soporte."
+    }
+  },
+  "topbar": {
+    "user": {
+      "profile": "Mi Perfil"
+    }
+  },
+  "layout": {
+    "settings": {
+      "title": "Personalización del Diseño"
+    }
+  },
+  "bairro": {
+    "startTitle": "Vecindario",
+    "createTitle": "Agregar Barrio",
+    "editTitle": "Editar Barrio",
+    "detailsTitle": "Ver Barrio",
+    "placeholders": {
+      "name": "Ingresa un nombre"
+    }
+  },
+  "erros": {
+    "page": {
+      "404": "Vaya, no podemos encontrar la página a la que intentas acceder."
+    }
+  },
+  "cidade": {
+    "startTitle": "Ciudad",
+    "detailsTitle": "Ver Ciudad",
+    "editTitle": "Editar Ciudad",
+    "createTitle": "Incluir Ciudad",
+    "ibgeCode": "Código IBGE",
+    "cfpsCode": "Seleccione el código CFPS",
+    "siafiCode": "Código SIAFI"
+  },
+  "banco": {
+    "startTitle": "",
+    "title": "",
+    "editTitle": "",
+    "createTitle": "",
+    "codigoBanco": "",
+    "carteira": "",
+    "modalidade": "",
+    "formaCobranca": "",
+    "layout": "",
+    "sequenciaRemessa": "",
+    "nomeCedente": "",
+    "cnpjCedente": "",
+    "codigoCedente": "",
+    "codigoTransmissao": "",
+    "complementoTransmissao": "",
+    "agencia": "",
+    "agenciaDigito": "",
+    "diasProtesto": "",
+    "juros": "",
+    "multa": "",
+    "contaCorrente": "",
+    "contaCorrenteDigito": "",
+    "convenio": "",
+    "producao": "",
+    "localPagamento": "",
+    "mensagemInstrucao": "",
+    "fieldSetLegend": {
+      "mensagensDeInstrucao": ""
+    },
+    "radioButtonOptions": {
+      "formaCobranca": {
+        "boleto": "",
+        "desconto": ""
+      }
+    },
+    "detailsTitle": ""
+  },
+  "dashboard": {
+    "errors": {
+      "noDefaultEmailAdmin": "",
+      "noDefaultEmail": ""
+    }
+  },
+  "email": {
+    "title": "",
+    "enviado": "",
+    "testarEmail": "",
+    "dropDown": "",
+    "ssl": "",
+    "conexaoSegura": "",
+    "tipo": {
+      "padrao": "",
+      "compras": "",
+      "vendas": ""
+    }
+  },
+  "empresa": {
+    "tabs": {
+      "geral": {
+        "title": ""
+      },
+      "layout": {
+        "title": "",
+        "datePicker": ""
+      }
+    },
+    "tooltips": {
+      "banner": "",
+      "logo": ""
+    },
+    "razaoSocial": "",
+    "nomeFantasia": "",
+    "inscricaoEstadual": "",
+    "inscricaoMunicipal": "",
+    "fornecedorInterno": "",
+    "complemento": "",
+    "nomeFarmaceutico": "",
+    "cpfRespSNGPC": "",
+    "usuarioSNGPC": "",
+    "senhaSNGPC": "",
+    "licencaFunc": "",
+    "autoridadeSanitaria": "",
+    "licencaMapa": "",
+    "markupPadrao": "",
+    "prazoPadrao": "",
+    "regimeTributario": {
+      "title": "",
+      "simplesNacional": "",
+      "simplesNacionalSubLimite": "",
+      "regimeNormal": ""
+    },
+    "toast": {
+      "errorIe": ""
+    }
+  },
+  "estado": {
+    "icmsAliquot": "",
+    "fcpAliquot": "",
+    "exemptTaxpayer": "",
+    "difalInside": "",
+    "difalExempt": "",
+    "createTitle": "",
+    "startTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "fieldSetLegend": "",
+    "erroAliquotaEstado": "",
+    "aliquotaEstado": {
+      "estadoDestino": "",
+      "estadoOrigem": "",
+      "porcentagemIcms": ""
+    }
+  },
+  "faltasEncomendas": {
+    "previsaoDeEntrega": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "confirmations": {
+      "concluir": ""
+    },
+    "success": {
+      "concluir": ""
+    },
+    "statusFaltaEncomenda": {
+      "solicitado": "",
+      "encomendado": "",
+      "concluido": ""
+    },
+    "radioButtonOptions": {
+      "falta": "",
+      "encomenda": ""
+    },
+    "erros": {
+      "listaProdutoVazia": "",
+      "clienteVazio": "",
+      "produtoExistente": "",
+      "noPermissionConcluir": "",
+      "noPermissionCancelar": "",
+      "faltaEncomendaJaConcluida": "",
+      "quantidadeInvalida": ""
+    }
+  },
+  "fornecedor": {
+    "nomeFantasia": "",
+    "inscricaoEstadual": "",
+    "telefoneContato": "",
+    "contaCorrenteFornecedor": "",
+    "responsavelTecnico": "",
+    "alvaraSanitario": "",
+    "autorizacaoFuncionamento": "",
+    "autorizacaoEspecial": "",
+    "licencaMapa": "",
+    "cadastroFarmacia": "",
+    "planoDeContas": "",
+    "valorMinimoPedido": "",
+    "formaPagamento": "",
+    "previsaoEntrega": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "indicadorDeDestino": "",
+    "radioButtonOptions": {
+      "contribuinteIcms": "",
+      "contribuinteIsento": "",
+      "naoContribuinte": ""
+    },
+    "toast": {
+      "errorIe": "",
+      "errorEstadoEmpty": ""
+    },
+    "spacer": {
+      "dadosEndereco": ""
+    }
+  },
+  "pais": {
+    "ibgeCode": "",
+    "telephoneCode": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "portador": {
+    "portadorInativo": "",
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "laboratorio": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": ""
+  },
+  "planoDeContas": {
+    "title": ""
+  },
+  "produto": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "unidadeManipulacao": "",
+    "unidadeEstoque": "",
+    "valorCusto": "",
+    "valorCustoMedio": "",
+    "valorVenda": "",
+    "estoqueMinimo": "",
+    "estoqueMaximo": "",
+    "dataUltimaCompra": "",
+    "curvaAbc": "",
+    "aliquotaIcms": "",
+    "produtoInativo": "",
+    "situacaoTributaria": "",
+    "codigoDcb": "",
+    "codigoCas": "",
+    "optionsSituacaoTributaria": {
+      "tributadaIntegralmente": "",
+      "substituicaoTributaria": "",
+      "NaoIncidencia": "",
+      "tributadoISS": "",
+      "naoInformado": ""
+    },
+    "semCalculo": ""
+  },
+  "grupo": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "comissao": "",
+    "percentualDesconto": "",
+    "ativaPesagemGrupo": "",
+    "descontoMaximo": "",
+    "ativaControleDeLotesAcabados": "",
+    "fatorReferenciaGrupo": "",
+    "ativaControleLotesDrogaria": "",
+    "codigoGrupoLp": "",
+    "ensaios": "",
+    "fieldSetEnsaio": ""
+  },
+  "contasAPagar": {
+    "detailsTitle": "",
+    "editTitle": "",
+    "startTitle": "",
+    "start": {
+      "paidDuplicated": "",
+      "documentNumber": ""
+    },
+    "cancel": {
+      "success": "",
+      "confirm": "",
+      "title": ""
+    },
+    "createTitle": "",
+    "create": {
+      "accountPlan": "",
+      "installments": "",
+      "firstDueDate": "",
+      "buttons": {
+        "generateInstallments": ""
+      },
+      "success": ""
+    },
+    "duplicates": {
+      "installmentNumber": "",
+      "dueDate": ""
+    },
+    "payTitle": "",
+    "pay": {
+      "paidAmount": "",
+      "success": ""
+    },
+    "errors": {
+      "invalidDates": "",
+      "wrongValue": "",
+      "invalidInstallmentDates": ""
+    }
+  },
+  "relatorioContasAPagar": {
+    "title": "",
+    "accountPlan": "",
+    "errors": {
+      "invalidDates": "",
+      "noData": "",
+      "supplier": ""
+    },
+    "report": {
+      "supplier": "",
+      "regular": ""
+    }
+  },
+  "relatorioContasPagas": {
+    "title": "",
+    "dayTotal": "",
+    "total": "",
+    "duplicatedDueDate": "",
+    "duplicatedPayment": "",
+    "errors": {
+      "noData": ""
+    },
+    "report": {
+      "paidValue": "",
+      "paymentDifference": ""
+    }
+  },
+  "unidade": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "fatorLactobacilos": "",
+    "unidadeConversao": "",
+    "leftTableName": "",
+    "rightTableName": "",
+    "erros": {
+      "unidadeExistente": "",
+      "unidadeIgualDeEdição": ""
+    }
+  },
+  "usuarios": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "grupoUsuario": "",
+    "trocarSenha": "",
+    "mismatchPassword": "",
+    "success": "",
+    "filiais": "",
+    "errors": {
+      "noGroup": ""
+    }
+  },
+  "grupoUsuarios": {
+    "startTitle": "",
+    "createTitle": "",
+    "editTitle": "",
+    "detailsTitle": "",
+    "create": {
+      "success": ""
+    },
+    "errors": {
+      "emptyPermissoes": ""
+    }
+  },
+  "perfil": {
+    "trocarSenha": ""
+  }
+}

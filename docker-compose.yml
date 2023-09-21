@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  farmafacil-web-front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: farmafacil-web-front-v2-homolog:21092023
